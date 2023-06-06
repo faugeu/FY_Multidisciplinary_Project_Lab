@@ -4,11 +4,6 @@ def sum_two_number(num_1, num_2):
     print(total)
     return total
 
-def substract_two_number(num_1, num_2):
-    substract = num_1 - num_2
-    print(substract)
-    return substract
-
 #1.7
 def print_array(arr):
     print("All elements in the array:", end = " ")
@@ -35,4 +30,10 @@ def bubble_sort(arr):
         if not swap:
             break
     return arr
+
+#1.10
+def substract_two_number(num_1, num_2):
+    substract = num_1 - num_2
+    print(substract)
+    return substract
     
